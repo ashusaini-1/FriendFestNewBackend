@@ -3,6 +3,8 @@ const app = express();
 const dotenv = require("dotenv");
 const cookieParser = require("cookie-parser");
 const user = require("./routes/userRoutes");
+const chatRoutes=require('./routes/chatRoutes');
+const messageRoutes=require('./routes/messageRoutes')
 dotenv.config({ path: "config/config.env" });
 
 
